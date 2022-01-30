@@ -6,7 +6,8 @@ This plugin created using [@wordpress/create-block](https://developer.wordpress.
 
 ## References
 
-- [Create a Block Tutorial](https://developer.wordpress.org/block-editor/getting-started/create-block/) handbook page to get you started creating your first block.
+- [Create a Block Tutorial](https://developer.wordpress.org/block-editor/getting-started/create-block/)
+- [Creating dynamic blocks](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/)
 
 ## Examples
 
@@ -15,3 +16,11 @@ This plugin created using [@wordpress/create-block](https://developer.wordpress.
 - [blocks/static-block.php](blocks/static-block.php)
 - [src/static-block](src/static-block)
 - [build/static-block](build/static-block)
+
+### Dynamic Block
+
+Using client-side or server-side rendering.
+
+- [blocks/dynamic-block.php](blocks/dynamic-block.php)
+- [src/dynamic-block](src/dynamic-block)
+- [build/dynamic-block](build/dynamic-block)
