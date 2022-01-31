@@ -18,6 +18,7 @@
 
 define( 'LG_PLUGIN_PATH', __DIR__ );
 
+require_once LG_PLUGIN_PATH . '/filters.php';
 require_once LG_PLUGIN_PATH . '/blocks/static-block.php';
 require_once LG_PLUGIN_PATH . '/blocks/dynamic-block.php';
 require_once LG_PLUGIN_PATH . '/blocks/block-supports.php';

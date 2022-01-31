@@ -4,7 +4,7 @@
 	"name": "learn-gutenberg/dynamic-block",
 	"version": "0.1.0",
 	"title": "Dynamic Block Example - Latest Post",
-	"category": "widgets",
+	"category": "learn-gutenberg",
 	"icon": "smiley",
 	"description": "Dynamic block example using client-side rendering in JavaScript OR server side rendering.",
 	"supports": {

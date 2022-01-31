@@ -4,7 +4,7 @@
 	"name": "learn-gutenberg/static-block",
 	"version": "0.1.0",
 	"title": "Static Block Example",
-	"category": "widgets",
+	"category": "learn-gutenberg",
 	"icon": "smiley",
 	"description": "Static block example written with ESNext standard and JSX support – build step required.",
 	"supports": {

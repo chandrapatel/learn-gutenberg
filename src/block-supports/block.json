@@ -4,7 +4,7 @@
 	"name": "learn-gutenberg/block-supports",
 	"version": "0.1.0",
 	"title": "Block Supports Example",
-	"category": "widgets",
+	"category": "learn-gutenberg",
 	"icon": "smiley",
 	"description": "An example of block with all supports.",
 	"supports": {

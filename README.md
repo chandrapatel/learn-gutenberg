@@ -4,6 +4,8 @@ Learn Gutenberg plugin have different examples of custom blocks development. Sho
 
 This plugin created using [@wordpress/create-block](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/) package.
 
+You can find all the custom blocks under `Learn Gutenberg` block category.
+
 ## Examples
 
 ### Basic (Static) Block
