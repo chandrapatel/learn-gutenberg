@@ -49,8 +49,16 @@ function lg_dynamic_render_callback( $block_attributes, $content ) {
 	$post    = $recent_posts[0];
 	$post_id = $post['ID'];
 
+	/**
+	 * Generates a string of attributes by applying to the current block being rendered all of the features that the block supports.
+	 *
+	 * @see https://developer.wordpress.org/reference/functions/get_block_wrapper_attributes/
+	 */
+	$wrapper_attributes = get_block_wrapper_attributes();
+
 	return sprintf(
-		'<div class="wp-block-learn-gutenberg-dynamic-block"><a href="%1$s">%2$s</a></div>',
+		'<div %1$s><a href="%2$s">%3$s</a></div>',
+		$wrapper_attributes,
 		esc_url( get_permalink( $post_id ) ),
 		esc_html( get_the_title( $post_id ) )
 	);
