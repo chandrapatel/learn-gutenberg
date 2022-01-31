@@ -17,6 +17,8 @@ You can find all the custom blocks under `Learn Gutenberg` block category.
 #### References
 
 - [Create a Block Tutorial](https://developer.wordpress.org/block-editor/getting-started/create-block/)
+- [Metadata](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/)
+- [Edit and Save](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/)
 
 ### Dynamic Block
 
