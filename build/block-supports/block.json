@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "learn-gutenberg/block-supports",
+	"version": "0.1.0",
+	"title": "Block Supports Example",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "An example of block with all supports.",
+	"supports": {
+		"anchor": true,
+		"align": true,
+		"alignWide": true,
+		"className": true,
+		"color": {
+			"background": true,
+			"__experimentalDuotone": false,
+			"gradients": true,
+			"link": true,
+			"text": true
+		},
+		"customClassName": true,
+		"defaultStylePicker": true,
+		"html": true,
+		"inserter": true,
+		"multiple": true,
+		"reusable": true,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		}
+	},
+	"textdomain": "learn-gutenberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
