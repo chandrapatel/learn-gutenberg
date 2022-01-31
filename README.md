@@ -43,6 +43,18 @@ Using client-side or server-side rendering.
 
 - [Block Supports](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/)
 
+### Attributes and Editable Field
+
+- [blocks/block-supports.php](blocks/block-attributes.php)
+- [src/block-supports](src/block-attributes)
+- [build/block-supports](build/block-attributes)
+
+#### References
+
+- [Introducing Attributes and Editable Fields](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/introducing-attributes-and-editable-fields/)
+- [Attributes](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-attributes/)
+- [RichText Reference](https://developer.wordpress.org/block-editor/reference-guides/richtext/)
+
 ## Credits
 
 - [Block Editor Handbook](https://developer.wordpress.org/block-editor/)

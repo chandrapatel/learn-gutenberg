@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "learn-gutenberg/block-attributes",
+	"version": "0.1.0",
+	"title": "Block Attributes Example",
+	"category": "learn-gutenberg",
+	"icon": "smiley",
+	"description": "Block attributes example written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"content": {
+			"type": "array",
+			"source": "html",
+			"selector": "p"
+		}
+	},
+	"textdomain": "learn-gutenberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
