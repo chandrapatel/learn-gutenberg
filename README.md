@@ -55,6 +55,19 @@ Using client-side or server-side rendering.
 - [Attributes](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-attributes/)
 - [RichText Reference](https://developer.wordpress.org/block-editor/reference-guides/richtext/)
 
+### Block Controls: Block Toolbar and Settings Sidebar
+
+- [blocks/block-controls.php](blocks/block-controls.php)
+- [src/block-controls](src/block-controls)
+- [build/block-controls](build/block-controls)
+
+#### References
+
+- [Block Controls: Block Toolbar and Settings Sidebar](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/block-controls-toolbar-and-sidebar/)
+- [Component Reference](https://developer.wordpress.org/block-editor/reference-guides/components/) - Refer child pages for all components.
+- [InspectorControls](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#inspectorcontrols)
+- [BlockControls](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#blockcontrols)
+
 ## Credits
 
 - [Block Editor Handbook](https://developer.wordpress.org/block-editor/)

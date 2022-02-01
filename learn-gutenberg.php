@@ -23,3 +23,4 @@ require_once LG_PLUGIN_PATH . '/blocks/static-block.php';
 require_once LG_PLUGIN_PATH . '/blocks/dynamic-block.php';
 require_once LG_PLUGIN_PATH . '/blocks/block-supports.php';
 require_once LG_PLUGIN_PATH . '/blocks/block-attributes.php';
+require_once LG_PLUGIN_PATH . '/blocks/block-controls.php';

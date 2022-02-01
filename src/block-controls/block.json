@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "learn-gutenberg/block-controls",
+	"version": "0.1.0",
+	"title": "Block Controls Example",
+	"category": "learn-gutenberg",
+	"icon": "smiley",
+	"description": "Block controls example written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "none"
+		},
+		"checkboxField": {
+			"type": "boolean",
+			"default": true
+		},
+		"radioField": {
+			"type": "string",
+			"default": "yes"
+		},
+		"textField": {
+			"type": "string"
+		},
+		"toggleField": {
+			"type": "boolean"
+		},
+		"selectField": {
+			"type": "string"
+		}
+	},
+	"textdomain": "learn-gutenberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

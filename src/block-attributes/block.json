@@ -12,7 +12,7 @@
 	},
 	"attributes": {
 		"content": {
-			"type": "array",
+			"type": "string",
 			"source": "html",
 			"selector": "p"
 		}

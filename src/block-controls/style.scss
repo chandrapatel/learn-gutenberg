@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-learn-gutenberg-block-controls {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+
+	.lg-align-left {
+		text-align: left;
+	}
+
+	.lg-align-center {
+		text-align: center;
+	}
+
+	.lg-align-right {
+		text-align: right;
+	}
+}
