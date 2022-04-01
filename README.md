@@ -48,9 +48,9 @@ Using client-side or server-side rendering.
 
 ### Attributes and Editable Field
 
-- [blocks/block-supports.php](blocks/block-attributes.php)
-- [src/block-supports](src/block-attributes)
-- [build/block-supports](build/block-attributes)
+- [blocks/block-attributes.php](blocks/block-attributes.php)
+- [src/block-attributes](src/block-attributes)
+- [build/block-attributes](build/block-attributes)
 
 #### References
 
