@@ -67,7 +67,7 @@ export default function Edit( { attributes, setAttributes, isSelected } ) {
 	};
 
 	const onChangeRadioField = ( newValue ) => {
-		setAttributes( { checkboxField: newValue } );
+		setAttributes( { radioField: newValue } );
 	};
 
 	const onChangeTextField = ( newValue ) => {
