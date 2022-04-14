@@ -79,7 +79,7 @@ Using client-side or server-side rendering.
   - Template
   - Post Template
   - Parent-Child InnerBlocks
-- [InnerBlocks](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#inspectorcontrols)
+- [InnerBlocks](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#innerblocks)
 
 ### How-to Guides
 
